@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="2" name="demo.SimpleTest" time="14.602" errors="0" skipped="1">
+<testsuite tests="1" failures="0" name="TestSuite" time="9.321" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Pawan\eclipse-workspace-oxygen\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4267345607938035338.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Pawan\eclipse-workspace-oxygen\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4217652069807962065.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_171\bin;C:\apache-maven-3.5.4\bin;;C:\PostgreSQL\pg10\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Users\Pawan\AppData\Local\Microsoft\WindowsApps;C:\Users\Pawan\AppData\Local\Programs\Git\cmd;C:\Users\Pawan\AppData\Roaming\npm;C:\Users\Pawan\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,25 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="demo.SimpleTest" name="setUp" time="4.834">
-    <failure message="org/openqa/selenium/firefox/FirefoxDriver" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/firefox/FirefoxDriver
-	at demo.SimpleTest.setUp(SimpleTest.java:20)
-Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.firefox.FirefoxDriver
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 36 more
-</failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@ee7d9f1
-</system-out>
-  </testcase>
-  <testcase classname="demo.SimpleTest" name="testOrangeHRM" time="4.88">
-    <skipped/>
-  </testcase>
-  <testcase classname="demo.SimpleTest" name="tearDown" time="4.888">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at demo.SimpleTest.tearDown(SimpleTest.java:47)
-</failure>
-  </testcase>
+  <testcase classname="demo.LoginTest" name="testOrangeHRM" time="9.321"/>
 </testsuite>
