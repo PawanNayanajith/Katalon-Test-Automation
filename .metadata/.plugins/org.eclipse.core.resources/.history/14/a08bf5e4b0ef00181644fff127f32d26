@@ -1,4 +1,0 @@
-browser = chrome
-chromeDriverPath =C:\\Users\\Pawan\\Downloads\\chromedriver_win32\\chromedriver.exe
-fireFoxDriverPath=C:\\Users\\Pawan\\Downloads\\geckodriver-v0.23.0-win64\\geckodriver.exe
-baseUrl = https://opensource-demo.orangehrmlive.com

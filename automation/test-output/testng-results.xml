@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12348" started-at="2018-11-24T06:41:41Z" finished-at="2018-11-24T06:41:54Z">
+  <suite name="Default suite" duration-ms="15287" started-at="2018-11-24T08:55:34Z" finished-at="2018-11-24T08:55:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12348" started-at="2018-11-24T06:41:41Z" finished-at="2018-11-24T06:41:54Z">
-      <class name="demo.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.LoginTest@42d80b78]" name="setUp" is-config="true" duration-ms="2858" started-at="2018-11-24T06:41:41Z" finished-at="2018-11-24T06:41:44Z">
+    <test name="Default test" duration-ms="15287" started-at="2018-11-24T08:55:34Z" finished-at="2018-11-24T08:55:49Z">
+      <class name="demo.test.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.test.LoginTest@dd8ba08]" name="setUp" is-config="true" duration-ms="3095" started-at="2018-11-24T08:55:34Z" finished-at="2018-11-24T08:55:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testOrangeHRM()[pri:0, instance:demo.LoginTest@42d80b78]" name="testOrangeHRM" duration-ms="9474" started-at="2018-11-24T06:41:44Z" finished-at="2018-11-24T06:41:54Z">
+        <test-method status="PASS" signature="testOrangeHRM()[pri:0, instance:demo.test.LoginTest@dd8ba08]" name="testOrangeHRM" duration-ms="11461" started-at="2018-11-24T08:55:37Z" finished-at="2018-11-24T08:55:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrangeHRM -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.LoginTest@42d80b78]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-24T06:41:54Z" finished-at="2018-11-24T06:41:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.test.LoginTest@dd8ba08]" name="tearDown" is-config="true" duration-ms="705" started-at="2018-11-24T08:55:48Z" finished-at="2018-11-24T08:55:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- demo.LoginTest -->
+      </class> <!-- demo.test.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
