@@ -1,4 +1,5 @@
 package demo.test;
+import org.testng.Assert;
 import org.testng.annotations.*;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -12,6 +13,8 @@ import org.openqa.selenium.*;
 public class LoginTest extends BaseTest {
 
 	private static Logger logger = LogManager.getLogger(LoginTest.class);
+
+	boolean flag =false;
 	
 	@Test
 	public void testOrangeHRM() throws Exception {
@@ -31,11 +34,20 @@ public class LoginTest extends BaseTest {
 		} catch (Error e) {
 			verificationErrors.append(e.toString());
 		}
+		
+		//Checking values
+		if (driver.findElement(By.id("welcome")).getText().equalsIgnoreCase("Welcome Admin2")) {
+			flag =true;
+		} else {
+			String file = captureScreenShot();
+			logger.log(Level.ERROR, "Failed To find the message\n"+"ScreenShot File "+file);		
+		}
+		
+		Assert.assertTrue(flag);
 		Thread.sleep(2000);
 		driver.findElement(By.id("welcome")).click();
 		driver.findElement(By.linkText("Logout")).click();
 		logger.log(Level.INFO, "************** Logged Out *************");
-		
 		Log.endTestCase();
 		
 	}

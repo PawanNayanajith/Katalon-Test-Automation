@@ -16,16 +16,9 @@
 					<target>1.7</target>
 				</configuration>
 			</plugin>
-		<!-- 	<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M1</version>
-				<configuration>
-					<systemPropertyVariables>
-						<propertyName>${browser}</propertyName>
-					</systemPropertyVariables>
-				</configuration>
-			</plugin> -->
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-surefire-plugin</artifactId> 
+				<version>3.0.0-M1</version> <configuration> <systemPropertyVariables> <propertyName>${browser}</propertyName> 
+				</systemPropertyVariables> </configuration> </plugin> -->
 		</plugins>
 	</build>
 	<name>automation</name>
@@ -61,5 +54,12 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.11.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+
 	</dependencies>
 </project>

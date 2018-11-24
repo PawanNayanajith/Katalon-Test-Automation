@@ -1,11 +1,1 @@
-2018-11-24 14:25:37.197 [main] INFO  demo.util.Log >> ************ Chrome Launched *************
-2018-11-24 14:25:43.030 [main] INFO  demo.util.Log >> ********************************************
-2018-11-24 14:25:43.030 [main] INFO  demo.util.Log >> ************** START TEST CASE *************
-2018-11-24 14:25:43.030 [main] INFO  demo.util.Log >> ********************************************
-2018-11-24 14:25:43.213 [main] INFO  demo.test.LoginTest >> ************** Set User Name ************
-2018-11-24 14:25:43.334 [main] INFO  demo.test.LoginTest >> ************** Set Password *************
-2018-11-24 14:25:45.228 [main] INFO  demo.test.LoginTest >> ************** Logged *************
-2018-11-24 14:25:48.674 [main] INFO  demo.test.LoginTest >> ************** Logged Out *************
-2018-11-24 14:25:48.674 [main] INFO  demo.util.Log >> ********************************************
-2018-11-24 14:25:48.674 [main] INFO  demo.util.Log >> ************** END TEST CASE *************
-2018-11-24 14:25:48.674 [main] INFO  demo.util.Log >> ********************************************
+2018-11-24 17:46:45.461 [main] INFO  demo.util.Log >> ************ Chrome Launched *************
