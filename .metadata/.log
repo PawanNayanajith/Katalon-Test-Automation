@@ -3284,3 +3284,101 @@ java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\724\0\.cp\lib\test
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 50970 -protocol json -d C:\Users\Pawan\eclipse-workspace-oxygen\automation\test-output C:\Users\Pawan\AppData\Local\Temp\testng-eclipse-632549720\testng-customsuite.xml
 java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\724\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar:C:\Users\Pawan\eclipse-workspace-oxygen\automation\target\test-classes:C:\Users\Pawan\eclipse-workspace-oxygen\automation\target\classes:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\Pawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Pawan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\Pawan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\Pawan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\Pawan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\Pawan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\Pawan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\Pawan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\Pawan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar:C:\Users\Pawan\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\Pawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Pawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar:C:\Users\Pawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\Pawan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Pawan\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar org.testng.remote.RemoteTestNG -serport 50970 -protocol json -d C:\Users\Pawan\eclipse-workspace-oxygen\automation\test-output C:\Users\Pawan\AppData\Local\Temp\testng-eclipse-632549720\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:06:09.282
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:06:09.301
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:07:26.195
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:07:26.209
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:09:03.739
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:09:03.753
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:09:48.821
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:09:48.837
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:10:05.591
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:10:05.606
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:10:13.512
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:10:13.523
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:10:21.560
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:10:21.577
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:10:31.450
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:10:31.460
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:10:50.015
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:10:50.032
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:11:06.651
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:11:06.665
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:11:27.214
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:11:27.232
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:11:30.745
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:11:30.757
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-11-24 12:11:41.118
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\724\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar C:\Users\Pawan\eclipse-workspace-oxygen\automation\target\test-classes C:\Users\Pawan\eclipse-workspace-oxygen\automation\target\classes C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\Pawan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\Pawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Pawan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\Pawan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\Pawan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\Pawan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\Pawan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\Pawan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\Pawan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\Pawan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar C:\Users\Pawan\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\Pawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Pawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar C:\Users\Pawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\Pawan\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\Pawan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Pawan\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51454 -protocol json -d C:\Users\Pawan\eclipse-workspace-oxygen\automation\test-output C:\Users\Pawan\AppData\Local\Temp\testng-eclipse--1013780957\testng-customsuite.xml
+java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\724\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar:C:\Users\Pawan\eclipse-workspace-oxygen\automation\target\test-classes:C:\Users\Pawan\eclipse-workspace-oxygen\automation\target\classes:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\Pawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Pawan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\Pawan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\Pawan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\Pawan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\Pawan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\Pawan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\Pawan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\Pawan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar:C:\Users\Pawan\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\Pawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Pawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar:C:\Users\Pawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\Pawan\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\Pawan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Pawan\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar org.testng.remote.RemoteTestNG -serport 51454 -protocol json -d C:\Users\Pawan\eclipse-workspace-oxygen\automation\test-output C:\Users\Pawan\AppData\Local\Temp\testng-eclipse--1013780957\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:12:06.012
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:12:06.025
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:12:14.043
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:12:14.053
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:12:24.902
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-11-24 12:12:24.920
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
