@@ -1,0 +1,38 @@
+package testcase;
+
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.Test;
+
+import logic.Calculation;
+import logic.Sorting;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.Scanner;
+
+public class TestCase2 {
+
+	public static Scanner input = new Scanner(System.in);
+
+	static int[] arr = new int[3];
+
+	@BeforeClass
+	public static void setData() {
+		arr= {5,8,9};
+	}
+
+	@Before
+	public static void sortArray() {
+		Sorting.sort(arr);
+	}
+	
+	@Test
+	public void checkMax() {
+		System.out.println("Checking Max");
+		assertEquals(27, Calculation.Cube(3));
+	}
+	
+	
+
+}

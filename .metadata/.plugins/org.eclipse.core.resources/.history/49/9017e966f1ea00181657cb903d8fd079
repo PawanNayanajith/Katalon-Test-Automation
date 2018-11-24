@@ -1,0 +1,13 @@
+package logic;
+
+public class Calculation {
+	
+	public int Cube(int n) {
+		return n*n*n;
+	}
+	
+	public int Area(int width, int length) {
+		return width*length;
+	}
+
+}

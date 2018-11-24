@@ -1,0 +1,38 @@
+package testcase;
+
+import logic.Calculation;
+import static org.junit.Assert.assertEquals;
+
+import org.junit.*;
+
+public class CalculationTest {
+	
+	@BeforeClass
+	public void setBeforeClass() throws Exception {
+		System.out.println("@BeforeClass Running");
+	}
+	
+	@Before
+	public void setBeforeEachMethod() throws Exception{
+		System.out.println("@Before each method");
+	}
+	
+	@Test
+	public void testCube() {
+		System.out.println("Test Case Cube");
+		assertEquals(27,Calculation.Cube(3));
+	}
+	
+	@Test
+	public void testArea() {
+		System.out.println("Test Case Area");
+		assertEqauls(600,Calculation.Area(20, 30));
+	}
+	
+	
+	
+	
+	
+	
+
+}

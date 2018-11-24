@@ -1,0 +1,13 @@
+package logic;
+
+public class Claclulation {
+	
+	public int Cube(int n) {
+		return n*n*n;
+	}
+	
+	public int Area(int width, int length) {
+		return width*length;
+	}
+
+}

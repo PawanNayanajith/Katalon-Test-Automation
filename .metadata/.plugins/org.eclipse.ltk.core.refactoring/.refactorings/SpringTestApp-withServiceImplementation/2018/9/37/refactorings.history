@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringTestApp-withServiceImplementation/src/main/resources/static/icons8-frankensteins-monster-64.png&apos; to &apos;favicon.png&apos;" description="Rename resource &apos;icons8-frankensteins-monster-64.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/static/icons8-frankensteins-monster-64.png" name="favicon.png" stamp="1537009937960" updateReferences="true"/>
+</session>

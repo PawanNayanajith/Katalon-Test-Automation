@@ -1,0 +1,12 @@
+package testcase;
+
+import org.junit.*;
+
+public class CalculationTest {
+	
+	@BeforeClass
+	public void setBeforeClass() {
+		System.out.println("@Before Class Running");
+	}
+
+}

@@ -1,0 +1,28 @@
+package testcase;
+import org.junit.BeforeClass;
+import logic.Sorting;
+import java.util.Scanner;
+public class TestCase2 {
+	
+	public static Scanner input = new Scanner(System.in);
+	
+	int[] arr;
+	
+	@BeforeClass
+	public static void getData() {	
+		System.out.println("Enter the Array Size");
+		int n = input.nextInt();
+		System.out.println("Enter Numbers");
+
+		for(int i=0; i<n; i++) {
+			arr[i]=input.nextInt();
+		}
+		
+	}
+	
+	@Before
+	public static void sortArray() {
+		Sorting.sort(arr);
+	}
+
+}

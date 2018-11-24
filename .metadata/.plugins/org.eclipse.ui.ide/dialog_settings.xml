@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="E:\DEC-2018\hrm-system-backend\hrm-system-directory"/>
+		<item value="E:\DEC-2018\hrm-system-backend"/>
+		<item value="E:\DEC-2018\Pasindu\hrm-system"/>
+		<item value="E:\DEC-2018\hrm-system2"/>
+		<item value="E:\DEC-2018\hrm-system"/>
+		<item value="C:\Users\Pawan\Desktop\Project-LMS\LeaveManagementSystem"/>
+		<item value="C:\Users\Pawan\Desktop\Project-2018OCT\LeaveManagementSystem"/>
+		<item value="E:\NewProject"/>
+		<item value="E:\NewProject-LMS\LeaveManagementSystem"/>
+		<item value="E:\Project\LeaveManagementSystem"/>
+		<item value="C:\Users\Pawan\Desktop\Spring_PostgreSQL\SpringTestApp-withServiceImplementation"/>
+		<item value="C:\Users\Pawan\Desktop\SpringTest\gs-rest-service"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="402" key="DIALOG_HEIGHT"/>
+		<item value="433" key="DIALOG_X_ORIGIN"/>
+		<item value="101" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+</section>
